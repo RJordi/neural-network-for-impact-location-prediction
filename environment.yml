@@ -1,0 +1,15 @@
+name: ilp_env
+channels:
+  - defaults
+dependencies:
+  - pandas=1.3.4=py38h743cdd8_0
+  - pip=21.2.4=py38hecd8cb5_0
+  - python=3.8.12=h88f2d9e_0
+  - scikit-learn=1.0.1=py38hae1ba45_0
+  - scipy=1.7.1=py38h88652d9_2
+  - pip:
+    - matplotlib==3.4.3
+    - numpy==1.19.5
+    - tensorflow==2.6.0
+    - keras==2.6.0
+    - keras-tuner==1.1.0
